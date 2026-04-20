@@ -1,0 +1,4 @@
+Lambda,Validation Accuracy (%),Test Accuracy Before Hard Prune (%),Test Accuracy After Hard Prune (%),Sparsity Level (%)
+0.05,84.82,82.78,82.78,42.56
+0.1,85.12,83.04,83.04,64.20
+0.2,84.46,82.72,82.72,77.10
