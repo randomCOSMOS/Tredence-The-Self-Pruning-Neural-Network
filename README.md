@@ -1,4 +1,4 @@
-# Tredence Analytics Internship Assignment
+    # Tredence Analytics Internship Assignment
 
 This repository contains my submission for the **Tredence Analytics AI Engineering Intern** assignment.
 

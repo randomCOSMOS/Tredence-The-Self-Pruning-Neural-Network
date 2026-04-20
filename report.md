@@ -60,3 +60,7 @@ The three runs show the expected sparsity versus accuracy trade-off:
 - A larger lambda (`0.20`) prunes more aggressively, which increases sparsity but causes a slight drop in accuracy.
 
 Overall, the experiments show that the network is able to prune itself during training, and that the amount of pruning can be controlled through the lambda value.
+
+## Runtime
+
+The full experiment sweep took about **25 minutes** to run.

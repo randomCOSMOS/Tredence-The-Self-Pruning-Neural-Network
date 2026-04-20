@@ -35,9 +35,7 @@ BEST_PLOT = Path("gate_distribution_best.png")
 
 # ============================================================
 # CHECKPOINT 1: PrunableLinear module implementation
-# This custom layer replaces nn.Linear and learns one gate per
-# weight. Each gate is produced from a learnable score and
-# multiplied element-wise with the underlying weight matrix.
+# This custom layer replaces nn.Linear and learns one gate per weight. Each gate is produced from a learnable score and multiplied element-wise with the underlying weight matrix.
 # ============================================================
 class PrunableLinear(nn.Module):
     """
@@ -79,9 +77,7 @@ class PrunableLinear(nn.Module):
 
 # ============================================================
 # CHECKPOINT 2: Neural network definition using PrunableLinear
-# The feature extractor is convolutional, while the classifier
-# uses PrunableLinear layers so the model can learn which dense
-# connections are unnecessary and prune them during training.
+# The feature extractor is convolutional, while the classifier uses PrunableLinear layers so the model can learn which dense connections are unnecessary and prune them during training.
 # ============================================================
 class SelfPruningNet(nn.Module):
     """
@@ -267,9 +263,7 @@ def evaluate(model, loader):
 
 # ============================================================
 # CHECKPOINT 3: Complete training and evaluation loop
-# This section trains the model with classification loss plus
-# lambda * sparsity loss, evaluates each run, compares lambda
-# values, and saves the final table, plot, and Markdown report.
+# This section trains the model with classification loss plus lambda * sparsity loss, evaluates each run, compares lambda values, and saves the final table, plot, and Markdown report.
 # ============================================================
 def run_experiment(target_lambda: float, train_loader, val_loader, test_loader):
     print(f"\n{'=' * 70}")
