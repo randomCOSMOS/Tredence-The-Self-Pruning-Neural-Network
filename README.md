@@ -9,6 +9,6 @@ The model learns a gate for each prunable weight and uses an L1 sparsity penalty
 
 ## Files
 
-- Report: [report.md](C:/Users/srija/OneDrive/Desktop/Things/Internship/Trendence/report.md)
-- Source Code: [pruning v2.py](C:/Users/srija/OneDrive/Desktop/Things/Internship/Trendence/pruning%20v2.py)
+- Report: [report.md](https://github.com/randomCOSMOS/Tredence-The-Self-Pruning-Neural-Network/blob/master/report.md)
+- Source Code: [pruning v2.py](https://github.com/randomCOSMOS/Tredence-The-Self-Pruning-Neural-Network/blob/master/pruning%20v2.py)
 - GitHub Repository: [Tredence-The-Self-Pruning-Neural-Network](https://github.com/randomCOSMOS/Tredence-The-Self-Pruning-Neural-Network)
